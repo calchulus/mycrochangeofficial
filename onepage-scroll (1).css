@@ -358,7 +358,7 @@ html {
       text-align: center;
     }
     .main section.page2 {
-      background: #555557 url(back-phone.png) no-repeat center -150px ;
+      background: #555557 no-repeat center -150px ;
     }
     .main section.page2 > img {
       position: absolute;

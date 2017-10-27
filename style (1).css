@@ -1,29 +1,8 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Pure JS One Page Scroll by Pete R. | The Pete Design</title>
-	<meta name="title" content="Pure JS One Page Scroll by Pete R. | The Pete Design" />
-	<meta name="description" content="Pure JS One Page Scroll is the javascript version (no need for jQuery any more) of the infamous jQuery One Page Scroll. Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
-	
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<meta content="http://www.thepetedesign.com/demos/purejs_onepage_scroll_demo.html" property="og:url" />
-	<meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image" />
-	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
-	<meta name="author" content="Pete R.">
-	<link rel="canonical" href="http://www.thepetedesign.com/demos/purejs_onepage_scroll_demo.html" />
-
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-  <script type="text/javascript" src="onepagescroll.js"></script>
-  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
-    <!--
-  <style>
-    html {
+html {
       height: 100%;
     }
     body {
-      background: #E2E4E7;
+      background: #44444;
       padding: 0;
       text-align: center;
       font-family: 'open sans';
@@ -279,7 +258,7 @@
       text-align: center;
     }
     .main section.page2 {
-      background: #555557 url(back-phone.png) no-repeat center -150px ;
+      background: #555557 no-repeat center -150px ;
     }
     .main section.page2 > img {
       position: absolute;
@@ -381,7 +360,7 @@
     }
     .main section.page1 h1 strong {
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 4px;
       font-size: 16px;
       padding: 10px 10px;
       display: inline-block;
@@ -405,117 +384,3 @@
       letter-spacing: 1px;
       font-size: 14px;
     }
-	</style>  -->
-</head>
-<body>
-    
-    <div class="wrapper">	
-	  <div class="main">
-	    
-      <section class="page1">
-        <div class="page_container">
-          <h1> MycroChange</h1>
-         <h2>We're changing how people 
-               <span
-     class="txt-rotate" style="font-weight: bold; color:#0090ff"
-     data-period="2000"
-                   data-rotate='[ "invest.", "save.", "give back."]'></span> 
-<br>
-            </h2>
-            <br>
-            <br>
-            <a data-index="3" href="#3"> <button class="btn" href ="section3">Join Us! </button></a> <a href="#2"> <button class="btn" href="section2">Learn More </button></a>
-          </div>
-      </section>
-	    
-	    <section id="page2" class="page2">
-	      <div class="page_container">
-          <h1>CHANGE HOW YOU CHANGE </h1>
-              <h2>Sustainably support your favorite causes</h2>
-	      </div>
-      </section>
-	    
-<section> 
-  
-    
-                     <div class="col-md-4"> 
-                         
-                       
-                 <div class="box animate-box"  style="padding-bottom: 12%;">
-                     <div style="padding-top: 30px;"><div class="icon colored-1"><span><i class="icon-refresh"></i></span></div></div>
-						<h3>No Minimums</h3>
-						<p>Continuously save and reinvest your money the way you want to. Every bit of change adds up.</p>
-                       <style> padding-bottom: 1.5em; </style>
-					</div>
-				</div>
-                    
-                  
-				<div class="col-md-4">
-					<div class="box animate-box" style="padding-bottom: 12%; ">
-						<div style="padding-top: 30px;"><div class="icon colored-4"><span><i class="icon-heart"></i></span></div></div>
-						<h3>Support Your Causes</h3>
-						<p>Help families and communities with vital capital through our NGO and MFI partners</p>
-                         <style> padding-bottom: 1.5em; </style>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="box animate-box" style="padding-bottom: 12%; ">
-                        <div style="padding-top: 30px;"><div class="icon colored-2"><span><i class="icon-present"></i></span></div></div>
-						<h3>Earn Rewards</h3>
-                        <p>Get additional gift cards, rewards, and offers from corporate sponsors!</p>
-                     <style> padding-bottom: 1.5em; </style>
-					</div>   
-                    
-					</div>
-</section>
-          
-	    <section id="page3" class="page2">
-	      <div class="page_container">
-          <h1>BUILT TO REDEFINE</h1>
-          <h2>MycroChange combines simple deposits to fund microloans to cause-oriented organizations to provide a one-of-a-kind savings for impact platform </h2>
-          <div class="btns">
-  	        <a class="reload btn" href="https://github.com/peachananr/purejs-onepage-scroll">Download on Github</a>
-  	      </div>
-              
-     <footer>
-    	<div class="row">
-					<ul class="social social-circle">
-					
-						<li><a href="https://www.facebook.com/MycroChange/?fref=ts"><i class="icon-facebook"></i></a></li>
-                        	<li><a href="https://twitter.com/mycrochange"><i class="icon-twitter"></i></a></li>
-						<li><a href="https://www.youtube.com/watch?v=cxrdS0IvdVA"><i class="icon-youtube"></i></a></li>
-					<!--	<li><a href="#"><i class="icon-pinterest"></i></a></li> -->
-						<li><a href="https://www.linkedin.com/groups/7053715"><i class="icon-linkedin"></i></a></li>
-						<li><a href="https://www.instagram.com/mycrochange/"><i class="icon-instagram"></i></a></li>
-                        	
-				<!--		<li><a href="#"><i class="icon-dribbble"></i></a></li> -->
-					</ul>
-				</div>
-    
-          
-	</footer>          
-              
-  	    </div>
-      </section>
-   <!--ribbon -->       
-<a class="back" href="apply.html">Nominate an impact organization now!</a>
-      
-  <script>
-	 onePageScroll(".main", {
-     sectionContainer: "section",
-     loop: true,
-     responsiveFallback: false
-   });
-		
-	</script>
-           <script src="carousel.js"></script>
-        </div>
-    </div>
-   
-	
-    
-</body>
-    
-    
-    
-</html>
